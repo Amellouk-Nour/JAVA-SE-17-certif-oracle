@@ -36,3 +36,16 @@
 ### What are classes?
 - A class is a blueprint for creating or instantiating objects. It contains attributes (information) and methods (algorithms) which are characteristics of those objects.
 **N.B**: Java code is always structured and written inside classes.
+
+### What are objects?
+- An object is a specific instance of a class. In fact, object attributes are capable of holding specific values, and objects can also have behaviors (methods) defined by a class that represents their type.
+
+### Inheritance in Java:
+- A class can reuse attributes and methods of other classes across a class hierarchy. By forming a hierarchical relationship, a superclass serves as a more generic or parent type, defining common attributes and behaviors. In contrast, subclasses are more specific child types.
+
+- There can be multiple levels in the hierarchy, from generic to specific child types. A subclass inherits all attributes and behaviors from its parent class and can define additional attributes and behaviors within itself.
+
+**NB**: In **Java**, we use the keyword **extends** to create inheritencr relationship.
+
+### Java naming convention:
+- ![Alt text](img/naming_convention.png)
