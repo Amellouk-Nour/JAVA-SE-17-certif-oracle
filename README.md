@@ -55,5 +55,23 @@
 
  - **`public`** : Visible in any class.
  - **`protected`** : Visible to the classes that are in the same package or to subclasses.
- - **`<default>`** : Visible to the classes that are in the same package.
+ - **`<default>`** : Visible to the classes that are in the same package and there is no access modifier set.
  - **`private`** : Visible only within the same class.
+
+![Alt text](img/access-modifiers.png)
+
+### Compiling Java program :
+- Java classes can be compile with the executable **javac** with the folowing parameters :
+ - The **-classpath** or **-cp** parameter points to locations of other classes that may be required to compile your code.
+ - The **-d** parameter points to a path to store compilation result.
+ - Provide paths of the classes that you generated source code.
+
+![Alt text](img/javac-compilateur.png)
+
+### Execute Java program :
+- After compiling, you can execute a java program with the executable **java** with the folowing parameters :
+ - The **-classpath** or **-cp** parameter points to locations of where the **.class** files are located.
+ - The **`<package_name.class_name>`** parameter indicate the executed class.
+ - And provide a space separated list of parameters after the class name.
+
+ ![Alt text](img/java-executable.png)
