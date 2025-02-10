@@ -53,7 +53,7 @@
 ### Access modifiers:
 - Access modifiers describes visibility of classes, variables and methods, and in this part, we will see 4 access modifiers :
 
- - **public** : Visible in any class.
- - **protected** : Visible to the classes that are in the same package or to subclasses.
+ - **`public`** : Visible in any class.
+ - **`protected`** : Visible to the classes that are in the same package or to subclasses.
  - **`<default>`** : Visible to the classes that are in the same package.
- - **private** : Visible only within the same class.
+ - **`private`** : Visible only within the same class.
