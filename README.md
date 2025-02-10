@@ -48,4 +48,12 @@
 **NB**: In **Java**, we use the keyword **extends** to create inheritencr relationship.
 
 ### Java naming convention:
-- ![Alt text](img/naming_convention.png)
+![Alt text](img/naming_convention.png)
+
+### Access modifiers:
+- Access modifiers describes visibility of classes, variables and methods, and in this part, we will see 4 access modifiers :
+
+ - **public** : Visible in any class.
+ - **protected** : Visible to the classes that are in the same package or to subclasses.
+ - **`<default>`** : Visible to the classes that are in the same package.
+ - **private** : Visible only within the same class.
