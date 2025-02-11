@@ -100,4 +100,16 @@
 
 ### Declare and initialize primitives variables :
 - Declare a variable of any type we use the syntaxe :
- - <type_name> <variable_name> ;
+    <type_name> <variable_name> ;
+- Declare and initialize a variable of any type we use the syntaxe :
+    <type_name> <variable_name> = <value> ;
+
+ - So, a variable can be initialized with no immediate initialization, so long as it is initialized before use.
+ - Numeric values can be expressed as binary (**0B...**), octal (**0..**), decimal and hex (**0x..**).
+ - Float or Double can be expressed in normal or exponential notations.
+ - Multiple variables of the same type can be declared and initialized in the same time.
+ - Smaller types are automatically promoted to bigger type.
+ - Character values must be enclosed in sigle quotation marks.
+
+  ![Alt text](img/what_you_can_write.png)
+ 
