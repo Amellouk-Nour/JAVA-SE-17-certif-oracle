@@ -104,12 +104,31 @@
 - Declare and initialize a variable of any type we use the syntaxe :
     <type_name> <variable_name> = <value> ;
 
- - So, a variable can be initialized with no immediate initialization, so long as it is initialized before use.
+-Primitive declaration and initialization are :
+ - A variable can be initialized with no immediate initialization, so long as it is initialized before use.
  - Numeric values can be expressed as binary (**0B...**), octal (**0..**), decimal and hex (**0x..**).
  - Float or Double can be expressed in normal or exponential notations.
  - Multiple variables of the same type can be declared and initialized in the same time.
- - Smaller types are automatically promoted to bigger type.
+ - Smaller types are automatically promoted to bigger type **(automatic casting)**.
  - Character values must be enclosed in sigle quotation marks.
 
   ![Alt text](img/what_you_can_write.png)
- 
+
+-Primitive declaration and initialization restrictions are :
+ - Variables must be initialized before use.
+ - A bigger type value can not be assigned directely to a smaller type value.
+ - Character value must not be enclosed with double quotations marks and cannot contain more then one character.
+ - Boolean values need to be expressed only as **true** or **false**.
+
+  ![Alt text](img/what_you_cannot_write.png)
+
+N.B : any exemple here will cause a *Java code not to compile*.
+
+### Casting :
+- Rules of Java arithmetic operations and types casting :
+
+ - Smaller types are automatically casted to bigger type :
+ byte -> short -> char -> int -> long -> float -> double 
+ - A bigger type value cannot be assigned to a smallr type value without explicit type casting.
+ - Type can be explicitly cast using the following syntaxe :
+ (<new_type>) <variable or expression>;
