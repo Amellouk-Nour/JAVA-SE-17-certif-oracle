@@ -75,3 +75,20 @@
  - And provide a space separated list of parameters after the class name.
 
  ![Alt text](img/java-executable.png)
+
+- from Java 11, we can directly compile and execute a **.java** class if only it doesn't need any other class that you wrote :
+ 
+ ![Alt text](img/java-execute-JVM-11.png)
+
+### Create a JavaDoc :
+-you can create Java Documentation with commenting on the top of a bloc(**function**, **class**) :
+
+ -**`comment:`** /**
+                    * your description
+                    * @athor name
+                    * @version 1.0
+                    */
+
+ and after generate documentation with the executable **javadoc** :
+
+ **`javadoc -d <where_create_out> lists_of_fils_to_documents`**

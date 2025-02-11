@@ -1,7 +1,16 @@
 package java_code;
 
+
+
 import outherclasses.SubElement;
 
+
+
+/**
+ * 
+ * @version 1.0
+ * @author Nour
+ */
 class Test{
     private SubElement var1 ;
 
